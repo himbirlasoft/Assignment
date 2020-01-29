@@ -1,0 +1,6 @@
+from django.db import models
+
+class Loan(models.Model):
+    full_name = models.CharField(max_length=50)
+    email = models.CharField(max_length=50)
+    why = models.CharField(max_length=100)

@@ -1,0 +1,21 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan App</title>
+</head>
+<body>
+<h2>Loan Application Made by Himanshu</h2>
+
+<form action="/thankyou/" method="post">
+    {% csrf_token %}
+    <table>
+    {{form.as_table}}
+
+ </table>
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
